@@ -1,0 +1,54 @@
+/* roles page */
+.roleselector {
+    width: 33.5%;
+    border: 2px solid var(--accent-color);
+  }
+  .roleselector a{
+    color: var(--text-color);
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid var(--accent-color);
+    user-select: none;
+  }
+  .roleselector a:hover {color:var(--accent-color);background-color: var(--hover-color);}
+  .roleinfo {
+    width: 66.5%;
+    border: 2px solid var(--accent-color);
+    float: right;
+    padding: 10px;
+  }
+  .roleinfo > div {
+    height: 100%;
+    display: none;
+    overflow-y: scroll;
+    padding-right: 10px;
+  }
+  .roleinfo > div.active {
+    display: block;
+  }
+  .headerbox {
+    width:100%;
+  }
+  .headerbox a{
+    float: right;
+    font-size: 200%;
+    color: var(--accent-color);
+  }
+  .headerboxtitle{
+    font-size: 200%;
+  }
+  .headerboxsub{
+    font-style:italic;
+  }
+  .roleabilitytitle{
+    font-size: 120%;
+    border-bottom: 2px solid var(--accent-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--accent-color);
+  }
+  .roleabilityrank{
+    margin-top: 10px;
+    font-size: 100%;
+  }
