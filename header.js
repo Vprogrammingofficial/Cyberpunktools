@@ -11,7 +11,7 @@ const headerHTML = `
 </header>
 <div class="navholder">
 <nav class="navbar">
-    <a href="main.html">Home</a>
+    <a href="index.html">Home</a>
     <div class="dropdown">
         <div class="dropbtn">Player▼</div>
         <div class="dropdown-content">
