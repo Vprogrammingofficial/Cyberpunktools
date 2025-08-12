@@ -1,0 +1,88 @@
+#buttonholder {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Two vertical columns */
+    grid-template-rows: repeat(2, 1fr);   /* Five rows */
+    gap: 0px;
+    height: 66.5%;
+  }
+  
+  #buttonholder a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-color);
+    border: 2px solid var(--accent-color);
+    padding: 0;
+  }
+  
+  .nmicon{
+    stroke: var(--text-color);
+    fill:  var(--text-color);
+    width: auto;
+    height: 2.5em;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0; 
+    padding: 0;
+  }
+
+  .itembtn{
+    border:2px solid var(--accent-color);
+  }
+  .itemdets{
+    user-select: none;
+    display: inline-block;
+    padding: 4px;
+    width: 30%;
+  }
+  .itemdetsb{
+    user-select: none;
+    border-left: 2px solid var(--accent-color);
+    border-right: 2px solid var(--accent-color);
+    display: inline-block;
+    padding: 4px;
+    width:50%;
+  }
+  .itemdetsc{
+    user-select: none;
+    display: inline-block;
+    padding: 4px;
+    width:20%;
+  }
+
+  .tagboxbtn{
+    user-select: none;
+    border: 2px solid var(--accent-color);
+    padding: 5px;
+    float:right;
+  }
+
+  .tagbtn{
+    border: 2px solid var(--accent-color);
+    font-size: 0.8em;
+    padding: 2px;
+    display: flex;
+    gap: 8px;
+    user-select: none;
+  }
+
+  .tagbox{
+    user-select: none;
+    padding: 5px;
+    display: none;
+    position: absolute;
+    background-color: var(--bg-color);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 2px solid var(--accent-color);
+    right: 66.5%;
+  }
+  .tagboxbtn:hover .tagbox {display: flex;}
+
+  .tagbtn.w { background-color: green; color:var(--bg-color); }
+  .tagbtn.n  { background-color: var(--bg-color); color: var(--text-color); }
+  .tagbtn.b   { background-color: red; color:var(--bg-color); }
+
+  .itembtn:hover {background-color: var(--hover-color);}
+
+  #buttonholder a:hover {background-color: var(--hover-color);}

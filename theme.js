@@ -22,6 +22,9 @@ const themes = {
       '--header-bg': '#000000'
     }
   };
+const fonts = {
+  
+}
 function applyTheme(themeName) {
     const theme = themes[themeName];
     if (!theme) return;
